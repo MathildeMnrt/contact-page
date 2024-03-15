@@ -4,10 +4,10 @@ function App() {
 
   return (
     <>
-      <div className='h-vh w-full bg-cover bg-center' style={{ backgroundImage: `url("/bg-image.svg")` }}>
+      <div className='h-vh w-full bg-cover bg-center' style={{ backgroundImage: `url("./bg-image.svg")` }}>
         <header className='pt-[20px] pl-20'>
           <img
-            src="/contact-form-icon.svg"
+            src="./contact-form-icon.svg"
           />
         </header>
         <div className='flex flex-col items-center mx-auto'>
