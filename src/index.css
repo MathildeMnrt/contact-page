@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input {
+  @apply bg-white rounded-xl h-14 placeholder:text-gray-300 p-[24px]
+}
+
+select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari, Chrome */
+  appearance: none;
+  background-repeat: no-repeat;
+  background-position-x: 95%;
+  background-position-y: 50%;
+  background-image: url('./assets/Expand_down.svg')
+}
+
+select {
+  @apply bg-white rounded-xl h-14 placeholder:text-gray-300 p-4
+}
+
+textarea {
+  @apply bg-white rounded-xl placeholder:text-gray-500 p-4
+}
+
+.form-field {
+  @apply flex flex-col gap-[4px]
+}
+
+label {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: white;
+}
+
+.be-vietnam.title {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+}
+
+.be-vietnam.subtitle {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+}
+
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  font-style: normal;
+  color: #111729;
+}
+
+button {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #4036A9;
+}
